@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8">
-    <title>COP 3060 Skeleton Assignment</title>
+    <title>By Jamal Person</title>
   </head>
   <body>
-    <h1>Skeleton Assignment </h1>
+    <h1>COP 3060 Skeleton Assignment</h1>
     <p>
       Hello, my name is Jamal Person, and this is my first time using GitHub for my curriculum. 
       I’ve heard of GitHub while at FAMU, but never used it until your class, Ms. Coote. This fall 
