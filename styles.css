@@ -1,0 +1,31 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;  
+  margin: 20px;  
+  background-color: #fdfdfd;
+}
+
+
+h1 {
+  color: darkblue;  
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: darkgreen;  
+  margin-top: 20px;
+}
+
+
+.highlight {
+  color: crimson;   
+  font-style: italic;
+}
+
+
+#special {
+  background-color: gold;
+  padding: 15px;   
+  border: 2px solid black;
+  text-align: center;
+  font-weight: bold;
+}
