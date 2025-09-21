@@ -6,9 +6,13 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <h1>COP 3060 Skeleton Assignment</h1>
+    <h1 id="special">COP 3060 Skeleton Assignment</h1>
+
+    <p class="highlight">
+      Hello, my name is Jamal Person, and this is my first time using GitHub for my curriculum...
+    </p>
+
     <p>
-      Hello, my name is Jamal Person, and this is my first time using GitHub for my curriculum. 
       I’ve heard of GitHub while at FAMU, but never used it until your class, Ms. Coote. This fall 
       and spring semester will be my last year for a bachelor’s degree in computer science, and 
       I hope to make the best out of this opportunity. I live in Port Saint Lucie, Florida. I was 
@@ -19,69 +23,82 @@
       learn from you and make the most of learning the skills you teach me during this semester.
     </p>
  
-<h2>User Information</h2>
-  <form action="#" method="post">
-  <label for="fname">First name:</label><br>
-  <input type="text" id="fname" name="fname"><br>
-  <label for="lname">Last name:</label><br>
-  <input type="text" id="lname" name="lname"><br>
-  <label for="email">Email:</label><br>
-  <input type="email" id="email" name="email"><br>
-  <label for="password">Password:</label><br>
-  <input type="password" id="password" name="password"><br>
+    <h2>User Information</h2>
+    <form action="#" method="post">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
 
-  <fieldset>
-  <legend>Which is devil fruit type you want ?</legend>
-  <input type="radio" id="Paramecia" name="devilfruit" value="Paramecia">
-  <label for="Paramecia">Paramecia</label><br>
-  <input type="radio" id="Zoan" name="devilfruit" value="Zoan">
-  <label for="Zoan">Zoan</label><br>
-  <input type="radio" id="Logia" name="devilfruit" value="Logia">
-  <label for="Logia">Logia</label><br>
-    </fieldset>
-<br>
-    <fieldset>
-    <legend>Which admiral you think is stronger?</legend>
-  <input type="checkbox" id="Aokiji" name="admiral" value="Aokiji">
-  <label for="Aokiji">Aokiji</label><br>
-   <input type="checkbox" id="Kizaru" name="admiral" value="Kizaru">
-  <label for="Kizaru">Kizaru</label><br>   
- <input type="checkbox" id="Akainu" name="admiral" value="Akainu">
-  <label for="Akainu">Akainu</label><br>   
-  </fieldset>
-<br>
-  <fieldset>
-    <label for="Emperor">Which is your favortite emperor?</label>
-    <select name="SelectEmperor" id="Emperor">
-    <option value="Shanks">Shanks</option>
-    <option value="Whitebeard">Whitebeard</option>
-    <option value="BigMom">Big Mom</option>
-    <option value="Kaido">Kaido</option>
-    </select>
-  </fieldset>
-  <input type="submit" value="Submit">
-  </form>
-<table>
-  <tr>
-  <th>Favorite Mangas</th>
-  <th>Favorite Animes</th>
-  <th>Favorite Video Games</th>
-  </tr>
-  <tr>
-    <td>One Piece</td>
-    <td>Solo Leveling</td>
-    <td>Fire Emblem Engage</td>
-  </tr>
-  <tr>
-    <td>Shangri-La Frontier</td>
-    <td>Jujutsu Kaisen</td>
-    <td>Super Smash Bros Ultimate</td>
-  </tr>
-  <tr>
-    <td>Chainsaw Man</td>
-    <td>Demon Slayer</td>
-    <td>Mario Kart</td>
-  </tr>
-</table>
- </body>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname"><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email"><br>
+
+      <label for="password">Password:</label><br>
+      <input type="password" id="password" name="password"><br>
+
+      <fieldset>
+        <legend>Which is devil fruit type you want?</legend>
+        <input type="radio" id="Paramecia" name="devilfruit" value="Paramecia">
+        <label for="Paramecia">Paramecia</label><br>
+
+        <input type="radio" id="Zoan" name="devilfruit" value="Zoan">
+        <label for="Zoan">Zoan</label><br>
+
+        <input type="radio" id="Logia" name="devilfruit" value="Logia">
+        <label for="Logia">Logia</label><br>
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <legend>Which admiral you think is stronger?</legend>
+        <input type="checkbox" id="Aokiji" name="admiral" value="Aokiji">
+        <label for="Aokiji">Aokiji</label><br>
+
+        <input type="checkbox" id="Kizaru" name="admiral" value="Kizaru">
+        <label for="Kizaru">Kizaru</label><br>   
+
+        <input type="checkbox" id="Akainu" name="admiral" value="Akainu">
+        <label for="Akainu">Akainu</label><br>   
+      </fieldset>
+
+      <br>
+
+      <fieldset>
+        <label for="Emperor">Which is your favorite emperor?</label>
+        <select name="SelectEmperor" id="Emperor">
+          <option value="Shanks">Shanks</option>
+          <option value="Whitebeard">Whitebeard</option>
+          <option value="BigMom">Big Mom</option>
+          <option value="Kaido">Kaido</option>
+        </select>
+      </fieldset>
+
+      <input type="submit" value="Submit">
+    </form>
+
+    <table>
+      <tr>
+        <th>Favorite Mangas</th>
+        <th>Favorite Animes</th>
+        <th>Favorite Video Games</th>
+      </tr>
+      <tr>
+        <td>One Piece</td>
+        <td>Solo Leveling</td>
+        <td>Fire Emblem Engage</td>
+      </tr>
+      <tr>
+        <td>Shangri-La Frontier</td>
+        <td>Jujutsu Kaisen</td>
+        <td>Super Smash Bros Ultimate</td>
+      </tr>
+      <tr>
+        <td>Chainsaw Man</td>
+        <td>Demon Slayer</td>
+        <td>Mario Kart</td>
+      </tr>
+    </table>
+  </body>
 </html>
